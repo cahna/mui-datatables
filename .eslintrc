@@ -19,13 +19,14 @@
     "ecmaFeatures": {
       "jsx": true,
       "experimentalObjectRestSpread": true
-    },
+    }
   },
   "env": {
     "es6": true,
     "browser": true,
     "mocha": true,
-    "node": true
+    "node": true,
+    "cypress/globals": true
   },
   "extends": [
    "plugin:jsx-a11y/recommended"
@@ -50,6 +51,7 @@
     "react",
     "jsx-a11y",
     "filenames",
-    "react-hooks"
+    "react-hooks",
+    "cypress"
   ]
 }
