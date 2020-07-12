@@ -1,38 +1,38 @@
-import ArrayValueColumns from './array-value-columns';
-import ColumnFilters from './column-filters';
-import ColumnOptionsUpdate from './column-options-update';
-import Component from './component';
-import CSVExport from './csv-export';
-import CustomActionColumns from './custom-action-columns';
-import CustomizeColumns from './customize-columns';
-import CustomizeFilter from './customize-filter';
-import CustomizeFooter from './customize-footer';
-import CustomizeRows from './customize-rows';
-import CustomizeSearch from './customize-search';
-import CustomizeSearchRender from './customize-search-render';
-import CustomizeSorting from './customize-sorting';
-import CustomizeStyling from './customize-styling';
-import CustomizeToolbar from './customize-toolbar';
-import CustomizeToolbarSelect from './customize-toolbarselect';
-import DataAsObjects from './data-as-objects';
-import DraggableColumns from './draggable-columns';
-import ExpandableRows from './expandable-rows';
-import FixedHeader from './fixed-header';
-import HideColumnsPrint from './hide-columns-print';
-import OnDownload from './on-download';
-import OnTableInit from './on-table-init';
-import ResizableColumns from './resizable-columns';
-import SelectableRows from './selectable-rows';
-import ServerSideFilters from './serverside-filters';
-import ServerSidePagination from './serverside-pagination';
-import ServerSideSorting from './serverside-sorting';
-import Simple from './simple';
-import SimpleNoToolbar from './simple-no-toolbar';
-import TextLocalization from './text-localization';
-import CustomComponents from './custom-components';
-import InfiniteScrolling from './infinite-scrolling';
-import Themes from './themes';
-import LargeDataSet from './large-data-set';
+import ArrayValueColumns from './array-value-columns/Loadable';
+import ColumnFilters from './column-filters/Loadable';
+import ColumnOptionsUpdate from './column-options-update/Loadable';
+import Component from './component/Loadable';
+import CSVExport from './csv-export/Loadable';
+import CustomActionColumns from './custom-action-columns/Loadable';
+import CustomizeColumns from './customize-columns/Loadable';
+import CustomizeFilter from './customize-filter/Loadable';
+import CustomizeFooter from './customize-footer/Loadable';
+import CustomizeRows from './customize-rows/Loadable';
+import CustomizeSearch from './customize-search/Loadable';
+import CustomizeSearchRender from './customize-search-render/Loadable';
+import CustomizeSorting from './customize-sorting/Loadable';
+import CustomizeStyling from './customize-styling/Loadable';
+import CustomizeToolbar from './customize-toolbar/Loadable';
+import CustomizeToolbarSelect from './customize-toolbarselect/Loadable';
+import DataAsObjects from './data-as-objects/Loadable';
+import DraggableColumns from './draggable-columns/Loadable';
+import ExpandableRows from './expandable-rows/Loadable';
+import FixedHeader from './fixed-header/Loadable';
+import HideColumnsPrint from './hide-columns-print/Loadable';
+import OnDownload from './on-download/Loadable';
+import OnTableInit from './on-table-init/Loadable';
+import ResizableColumns from './resizable-columns/Loadable';
+import SelectableRows from './selectable-rows/Loadable';
+import ServerSideFilters from './serverside-filters/Loadable';
+import ServerSidePagination from './serverside-pagination/Loadable';
+import ServerSideSorting from './serverside-sorting/Loadable';
+import Simple from './simple/Loadable';
+import SimpleNoToolbar from './simple-no-toolbar/Loadable';
+import TextLocalization from './text-localization/Loadable';
+import CustomComponents from './custom-components/Loadable';
+import InfiniteScrolling from './infinite-scrolling/Loadable';
+import Themes from './themes/Loadable';
+import LargeDataSet from './large-data-set/Loadable';
 
 /**
  * Here you can add any extra examples with the Card label as the key, and the component to render as the value
@@ -61,14 +61,14 @@ export default {
   'Hide Columns Print': HideColumnsPrint,
   'Infinite Scrolling': InfiniteScrolling,
   'Large Data Set': LargeDataSet,
-  'OnDownload': OnDownload,
-  'OnTableInit': OnTableInit,
+  OnDownload: OnDownload,
+  OnTableInit: OnTableInit,
   'Resizable Columns': ResizableColumns,
   'Selectable Rows': SelectableRows,
   'ServerSide Filters': ServerSideFilters,
   'ServerSide Pagination': ServerSidePagination,
   'ServerSide Sorting': ServerSideSorting,
-  'Simple': Simple,
+  Simple: Simple,
   'Simple No Toolbar': SimpleNoToolbar,
   'Text Localization': TextLocalization,
   'Custom Components': CustomComponents,
